@@ -1,12 +1,11 @@
 [phases.setup]
 nixPkgs = ['nodejs', 'python3', 'yarn']
-aptPkgs = ['build-essential']
 
 [phases.install]
 cmd = 'yarn'
 
 [phases.build]
-cmds = ['yarn build']
+cmd = 'yarn build'
 
 [start]
 cmd = 'yarn start'  
