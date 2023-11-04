@@ -6,7 +6,7 @@ aptPkgs = ['build-essential']
 cmd = 'yarn'
 
 [phases.build]
-cmds = ['yarn build', 'yarn prisma generate']
+cmds = ['yarn build']
 
 [start]
 cmd = 'yarn start'  
